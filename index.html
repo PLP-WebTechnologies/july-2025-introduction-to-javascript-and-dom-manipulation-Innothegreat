@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Fundamentals Assignment</h1>
+
+<!-- Part 1: User Input -->
+<section>
+    <h2>Part 1: Javascript Basics</h2>
+    <label for="userAge">Enter your age:</label>
+    <input type="number" id="userAge" placeholder="Type your age">
+    <button onclick = "checkAge()" >Check Eligibility</button>
+    <p id="ageResult"></p>
+</section>
+
+<!-- Part 2: Functions -->
+<section>
+    <h2>Part 2: Javascript Functions</h2>
+    <button onclick = "calculateTotalOnClick()">Calculate Total</button>
+    <p id="calcResult"></p>
+</section>
+
+<!-- Part 3: Loops -->
+<section>
+    <h2>Part 3: Javascript Loops</h2>
+    <button onclick = "countdown()" >Show Countdown</button>
+    <ul id="countdownList"></ul>
+</section>
+
+<!-- Part 4: DOM Manipulation -->
+<section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <p id="toggleText">Click the button to highlight this text!</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
